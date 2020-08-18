@@ -1,22 +1,22 @@
-﻿namespace Decorator
+﻿namespace Decorator.starbuzz
 {
-    public class Soy : CondimentDecorator
+    public class Whip : CondimentDecorator
     {
         private Beverage _beverage;
 
-        public Soy(Beverage beverage)
+        public Whip(Beverage beverage)
         {
             _beverage = beverage;
         }
 
         public override string GetDescription()
         {
-            return _beverage.GetDescription() + ", Soy";
+            return _beverage.GetDescription() + ", Whip";
         }
 
         public override double Cost()
         {
-            return 0.15 + _beverage.Cost();
+            return 0.10 + _beverage.Cost();
         }
     }
 }

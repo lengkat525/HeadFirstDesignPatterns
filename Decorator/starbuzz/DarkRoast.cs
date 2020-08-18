@@ -1,19 +1,21 @@
-﻿namespace Decorator
+﻿namespace Decorator.starbuzz
 {
-    public class HouseBlend : Beverage
+    public class DarkRoast : Beverage
     {
-        public HouseBlend()
+        public  DarkRoast()
         {
+            
         }
+
 
         public override string GetDescription()
         {
-            return "House Blend Coffee";
+            return "Dark Roast Coffee";
         }
 
         public override double Cost()
         {
-            return 0.89;
+            return 0.99;
         }
     }
 }

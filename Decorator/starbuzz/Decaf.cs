@@ -1,9 +1,10 @@
-﻿namespace Decorator
+﻿namespace Decorator.starbuzz
 {
-    public class Espresso : Beverage
+    public class Decaf : Beverage
     {
-        public Espresso()
+        public Decaf()
         {
+            
         }
 
         public override string GetDescription()
@@ -13,9 +14,9 @@
 
         public override double Cost()
         {
-            return 1.99;
+            return 1.05;
         }
     }
 }
-//浓缩咖啡
 //饮料基底
+//具体组件

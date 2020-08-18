@@ -1,4 +1,4 @@
-﻿namespace Decorator
+﻿namespace Decorator.starbuzz
 {
     public abstract class CondimentDecorator : Beverage
    {
