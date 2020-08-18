@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ducks", "ducks\ducks.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{F5316082-D59A-4523-BE9B-1F35F54C5FAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "observer", "observer\observer.csproj", "{B2AC11A4-7AFE-4A3A-BEA0-2D5B93DB3E96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{FA99457A-34B9-4590-A79E-C1C0DC90489E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{F5316082-D59A-4523-BE9B-1F35F54C5FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5316082-D59A-4523-BE9B-1F35F54C5FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5316082-D59A-4523-BE9B-1F35F54C5FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2AC11A4-7AFE-4A3A-BEA0-2D5B93DB3E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2AC11A4-7AFE-4A3A-BEA0-2D5B93DB3E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2AC11A4-7AFE-4A3A-BEA0-2D5B93DB3E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2AC11A4-7AFE-4A3A-BEA0-2D5B93DB3E96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA99457A-34B9-4590-A79E-C1C0DC90489E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA99457A-34B9-4590-A79E-C1C0DC90489E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA99457A-34B9-4590-A79E-C1C0DC90489E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA99457A-34B9-4590-A79E-C1C0DC90489E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
